@@ -80,7 +80,7 @@ nav{
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 2rem;
-      max-width: 120px;
+      max-width: 1200px;
       margin: auto ;
 
 
@@ -88,10 +88,37 @@ nav{
    .footer-section{
       flex: 1 1 220px
    }
-
-   }
+   footer-section h3{
+      color: white;
+      margin-bottom: 1rem;
+    }
+    .footer-section ul{
+      list-style: none;
+      padding: 0;
+    }
+    .footer-section ul li{
+      margin-bottom: 0.5rem;
+    }
+    .footer-section ul li a{
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.7s;
+    }
+    .footer-section ul li a:hover{
+      color: orangered;
+      text-decoration: underline;
+    }
+    .footer-bottom{
+      text-align: center;
+      padding-top: 1rem;
+    
+    
+    }
 
 }
+   
+
+
 
 
      
